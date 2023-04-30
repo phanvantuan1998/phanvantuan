@@ -2,9 +2,11 @@
 
 class AccessController {
     signup = async ( req, res, next) => {
-        try {
-            
-        }
+        res.status(200)
+
     }
 
+}
+module.exports = {
+    signup
 }
